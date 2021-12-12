@@ -1,0 +1,25 @@
+Data Dictionary
+
+1. start_date --> Match started on the date 
+2. venue --> Ground Name where match was played
+3. innings --> contains the number of the innings within the match. If a match is one that would normally have 2 innings, such as a T20 or ODI, then any innings of more than 2 can be regarded as a super over.
+4. ball --> is a combination of the over and delivery. For example, "0.3" represents the 3rd ball of the 1st over.
+5. batting team --> A team who is batting
+6. Bowling team --> A team who is bowling
+7. striker --> A player who is going to face the bowler
+8. non striker --> the batsman who is at the bowler's end at the time of a delivery, and who therefore does not face the ball.
+9. Bowler --> Player who is going to Bowl the Ball
+10. run_off_bat --> When A batsmen scored run off the bat
+11. extras --> In cricket, an extra is a run scored by, or awarded to, a batting team which is not credited to any individual batsman.
+12. Wide --> Extra Runs type
+13. Noball --> Extra Runs type
+14. byes --> Extra Runs Type
+15. Legbyes --> Extra Runs Type
+16. panelty --> Extra Runs Type
+17. Wicket Type --> How a batsman is Dismissed
+18. player dismissed --> Player who got dismissed
+19. other wicket type --> There is also the, admittedly remote, possibility that a second dismissal can berecorded on the delivery 
+(such as when a player retires on the same delivery as another dismissal occurs). In this case "other_wicket_type" will record
+the reason
+20. other player dismissed --> It will show name of batsman who is dismissed in "other_wicket_type"
+
